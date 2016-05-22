@@ -124,7 +124,7 @@ module.exports = function (grunt) {
                  // output is the useref block file
                  output = parts[1];
 
-             // Handle absolute path (i.e. with respect to th eserver root)
+             // Handle absolute path (i.e. with respect to the server root)
              if (output[0] === '/') {
                 output = output.substr(1);
              }
@@ -189,7 +189,7 @@ module.exports = function (grunt) {
 
         grunt.log.subhead("beginning useref " + name);
 
-        // temp target is for data storag and is not actionable
+        // temp target is for data storage and is not actionable
         if ('temp' === name) {
             return;
         }
